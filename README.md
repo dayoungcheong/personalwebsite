@@ -45,3 +45,8 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 asada
 carne
+<<<<<<< HEAD
+=======
+lol
+hi
+>>>>>>> parent of 33b09f5... hiya
