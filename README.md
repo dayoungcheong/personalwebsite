@@ -45,9 +45,3 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 asada
 carne
-lol
-hi
-hiya
-asd
-dsa
-lal
