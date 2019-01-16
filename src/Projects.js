@@ -17,7 +17,6 @@ export class Projects extends Component {
         })
     }
     render() {
-        console.log(this.state.data)
         return <div className="container"> My Hackathon Projects
                 {this.state.data.map((d, index) => {
                 return (
