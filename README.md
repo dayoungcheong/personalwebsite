@@ -48,5 +48,9 @@ carne
 <<<<<<< HEAD
 =======
 lol
+<<<<<<< HEAD
+hi
+>>>>>>> parent of 33b09f5... hiya
+=======
 hi
 >>>>>>> parent of 33b09f5... hiya
