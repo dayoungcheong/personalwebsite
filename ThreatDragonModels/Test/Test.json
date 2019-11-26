@@ -8,7 +8,529 @@
       {
         "title": "test",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 988,
+                "y": 237
+              },
+              "angle": 0,
+              "id": "7e459b48-5be6-4551-86d6-bbc630ddb0fb",
+              "z": 1,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+                  "title": "Generic tampering threat",
+                  "type": "Tampering",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A data tampering threat",
+                  "mitigation": "The application that is protected by networking and physical security controls as well as hardened by CIS contains all the validation and authorization logic as well as the access keys and permissions checking."
+                },
+                {
+                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
+                  "title": "Generic repudiation threat",
+                  "type": "Repudiation",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic repudiation threat.",
+                  "mitigation": "We have enabled logging on S3 and use a centralized logging solution to maintain a trusted set of logs"
+                },
+                {
+                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+                  "title": "Generic tampering threat",
+                  "type": "Tampering",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic tampering threat"
+                },
+                {
+                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
+                  "title": "Generic repudiation threat",
+                  "type": "Repudiation",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic repudiation threat"
+                },
+                {
+                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+                  "title": "Generic tampering threat",
+                  "type": "Tampering",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic tampering threat",
+                  "mitigation": "We are actively performing threat modeling to ensure the keys are protected and the permissions are properly enforced"
+                },
+                {
+                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
+                  "title": "Generic repudiation threat",
+                  "type": "Repudiation",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic repudiation threat"
+                },
+                {
+                  "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
+                  "title": "Generic informtion disclosure threat",
+                  "type": "Information disclosure",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic information disclosure threat",
+                  "mitigation": "Access to information is only provided directly to the server in our hosting environment that has IP address of 137.127.12.41. Our access keys are only ever stored in a locked down configuration file on the server and then in memory of the application"
+                },
+                {
+                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+                  "title": "Generic DoS threat",
+                  "type": "Denial of service",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic DoS threat"
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "AWS S3"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 523,
+                "y": 86
+              },
+              "angle": 0,
+              "id": "8f007884-d224-46cd-a42b-fd2ff32fb1d5",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "mobile app 4\nsongz"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 401,
+                "y": 407
+              },
+              "target": {
+                "x": 759,
+                "y": 411
+              },
+              "vertices": [],
+              "id": "698bce6a-4b25-4c8e-b409-6df25824e194",
+              "z": 3,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 522,
+                "y": 299
+              },
+              "angle": 0,
+              "id": "1228c4dc-5159-4cc6-917e-04aae6f497b5",
+              "z": 4,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
+                  "title": "Generic spoofing threat",
+                  "type": "Spoofing",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic spoofing threat",
+                  "mitigation": "The server is locked down to only administrative access using best practices by CIS. We followed the linux hardening guidelines."
+                },
+                {
+                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+                  "title": "Generic tampering threat",
+                  "type": "Tampering",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic tampering threat"
+                },
+                {
+                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
+                  "title": "Generic repudiation threat",
+                  "type": "Repudiation",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "Process repudiation",
+                  "mitigation": "Detailed log files are kept with digital time stamps. The time stamps are signed and validated and stored in the database."
+                },
+                {
+                  "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
+                  "title": "Generic informtion disclosure threat",
+                  "type": "Information disclosure",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "the application does leverage some sensitive data that should never be exposed outside the app",
+                  "mitigation": "all logging is performed internally and protected. The secret information is always held in memory. We perform testing to ensure the app does not disclose information and review this periodically."
+                },
+                {
+                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+                  "title": "Generic DoS threat",
+                  "type": "Denial of service",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic DoS threat",
+                  "mitigation": "a IPS enabled firewall is being used to help protect against DOS. We are considering moving to AWS for exactly this reason"
+                },
+                {
+                  "ruleId": "c1377855-ea20-4c97-8861-f95c364fb8d2",
+                  "title": "Generic elevation threat",
+                  "type": "Elevation of privilege",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "An application level elevation threat",
+                  "mitigation": "We followed the MSDL. This means we have a detailed permission model available and we have validated that model. The model is very simple. A user can have one role and can access their music."
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Song Server\nApp"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 398,
+                "y": 265
+              },
+              "target": {
+                "x": 757,
+                "y": 265
+              },
+              "vertices": [],
+              "id": "9db9f3db-0719-44a0-acd2-d2e8760a16ce",
+              "z": 5,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 485,
+                "y": 455
+              },
+              "angle": 0,
+              "id": "87a40748-6b1c-492f-bdf6-962015c0b12a",
+              "z": 6,
+              "hasOpenThreats": false,
+              "storesCredentials": true,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Database"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 880,
+                "y": 13
+              },
+              "target": {
+                "x": 890,
+                "y": 550
+              },
+              "vertices": [],
+              "id": "3c49f03e-b796-42ac-b33e-f21e2da55d94",
+              "z": 7,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "1228c4dc-5159-4cc6-917e-04aae6f497b5"
+              },
+              "target": {
+                "id": "87a40748-6b1c-492f-bdf6-962015c0b12a"
+              },
+              "vertices": [
+                {
+                  "x": 709,
+                  "y": 444
+                }
+              ],
+              "id": "68df1676-3985-4493-a8bb-057ded143b83",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.47564310842781343,
+                    "offset": 0.34009195459245606
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Request DB Info",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 8,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "87a40748-6b1c-492f-bdf6-962015c0b12a"
+              },
+              "target": {
+                "x": 516,
+                "y": 343
+              },
+              "vertices": [
+                {
+                  "x": 340,
+                  "y": 442
+                }
+              ],
+              "id": "7ce38b3a-82ec-48f4-a0f7-834e7db27b92",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.49897338714786194,
+                    "offset": -42.42875801635478
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Receive DB\nInformation",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 9,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "1228c4dc-5159-4cc6-917e-04aae6f497b5"
+              },
+              "target": {
+                "id": "7e459b48-5be6-4551-86d6-bbc630ddb0fb"
+              },
+              "vertices": [],
+              "id": "6e955de4-774c-4139-8741-ff1ecd9b2b9d",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Request AWS Songs",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 10,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "7e459b48-5be6-4551-86d6-bbc630ddb0fb"
+              },
+              "target": {
+                "id": "1228c4dc-5159-4cc6-917e-04aae6f497b5"
+              },
+              "vertices": [
+                {
+                  "x": 819,
+                  "y": 392
+                }
+              ],
+              "id": "b0b1eb61-723f-479d-9033-a041403caec0",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Receive Songs",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 11,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "8f007884-d224-46cd-a42b-fd2ff32fb1d5"
+              },
+              "target": {
+                "id": "1228c4dc-5159-4cc6-917e-04aae6f497b5"
+              },
+              "vertices": [
+                {
+                  "x": 702,
+                  "y": 242
+                }
+              ],
+              "id": "b9549fed-1f29-4db1-9fe5-3528a7b34219",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Request from Mobile",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 12,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "1228c4dc-5159-4cc6-917e-04aae6f497b5"
+              },
+              "target": {
+                "id": "8f007884-d224-46cd-a42b-fd2ff32fb1d5"
+              },
+              "vertices": [
+                {
+                  "x": 416,
+                  "y": 215
+                }
+              ],
+              "id": "c3328516-f00f-484b-b8ff-81ad096be49a",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Response from\nServer",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 13,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": 697.68310546875,
+          "width": 2452.984619140625
+        }
       }
     ]
   }
