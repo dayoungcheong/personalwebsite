@@ -216,6 +216,14 @@
                   "severity": "Medium",
                   "description": "An application level elevation threat",
                   "mitigation": "We followed the MSDL. This means we have a detailed permission model available and we have validated that model. The model is very simple. A user can have one role and can access their music."
+                },
+                {
+                  "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
+                  "title": "Generic spoofing threat",
+                  "type": "Spoofing",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic spoofing threat"
                 }
               ],
               "attrs": {
